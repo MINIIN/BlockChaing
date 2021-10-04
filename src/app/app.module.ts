@@ -54,12 +54,14 @@ import {OverlayModule} from '@angular/cdk/overlay';
 import { FlexLayoutModule } from "@angular/flex-layout";
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { HomeComponent } from './modules/home/home.component';
+import { RegisterComponent } from './modules/register/register.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,

@@ -3,10 +3,11 @@ import { RouterModule, Routes } from '@angular/router';
  
 // import { LoginComponent } from 'src/app/modules/login/login.component'
 import { HomeComponent } from 'src/app/modules/home/home.component'
+import { RegisterComponent } from 'src/app/modules/register/register.component'
 
 const routes: Routes = [
   // เข้า root path ไปหน้า home
-  { path: '', component: HomeComponent },
+  { path: '', component: RegisterComponent },
   
   { path: 'home', component: HomeComponent },
 
